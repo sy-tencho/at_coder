@@ -29,7 +29,11 @@
       "id": "abc159_c",
       "label": "C",
       "title": "Maximum Volume",
-      "url": "https://atcoder.jp/contests/abc159/tasks/abc159_c"
+      "url": "https://atcoder.jp/contests/abc159/tasks/abc159_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc159_d",
