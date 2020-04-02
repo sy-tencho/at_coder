@@ -19,13 +19,21 @@
       "id": "abc158_b",
       "label": "B",
       "title": "Count Balls",
-      "url": "https://atcoder.jp/contests/abc158/tasks/abc158_b"
+      "url": "https://atcoder.jp/contests/abc158/tasks/abc158_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc158_c",
       "label": "C",
       "title": "Tax Increase",
-      "url": "https://atcoder.jp/contests/abc158/tasks/abc158_c"
+      "url": "https://atcoder.jp/contests/abc158/tasks/abc158_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc158_d",
