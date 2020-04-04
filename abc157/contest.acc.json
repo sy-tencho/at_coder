@@ -29,7 +29,11 @@
       "id": "abc157_c",
       "label": "C",
       "title": "Guess The Number",
-      "url": "https://atcoder.jp/contests/abc157/tasks/abc157_c"
+      "url": "https://atcoder.jp/contests/abc157/tasks/abc157_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc157_d",
