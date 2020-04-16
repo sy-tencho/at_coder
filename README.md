@@ -25,21 +25,3 @@ $ oj t -c " ruby ./file_name" -d ./tests/
 ```
 $ acc s file_name
 ```
-
-## よく使う実装まとめ
-
-### 数字の入力
-```
-n = gets.chop.to_i
-```
-
-### スペース区切り入力
-n, m = gets.chop.split.map(&:to_i)
-
-### 縦に並んだ入力
-n.times {A = gets.chop.split.map(&:to_i)}
-
-### 配列の和
-a = a.inject(:+)
-
-[参考](https://koh-eng.com/atcoder-ruby/)
