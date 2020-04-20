@@ -1,6 +1,0 @@
-{
-  "python.pythonPath": "/usr/local/opt/pyenv/versions/3.4.3/bin/python3",
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "python.linting.flake8Enabled": false
-}
