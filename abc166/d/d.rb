@@ -1,26 +1,10 @@
 x = gets.chop.to_i
-ans = []
-ary = []
 
-(0..100).each do |i|
-  ary.push(i ** 5)
-end
-
-ary.each do |i|
-  list = []
-  ary.each do |j|
-    if i + j == x
-      puts i**(1/5), j**(1/5)
-      break
-    elsif -i + j == x
-      puts -i**(1/5), j**(1/5)
-      break
-    elsif i - j == x
-      puts i**(1/5), -j**(1/5)
-      break
-    elsif -i - j == x
-      puts -i**(1/5), -j**(1/5)
-      break
+(-120..120).each do |i|
+  (-120..120).each do |j|
+    if i ** 5 - j ** 5 == x
+      puts "#{i} #{j}"
+      exit
     end
   end
 end
